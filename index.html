@@ -1,35 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using @vitejs/plugin-react"
-    />
-    <link rel="apple-touch-icon" href="/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="/manifest.json" />
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mimi Store</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Mimi Store</div>
+    <nav class="nav-center">
+      <a href="#">Home</a>
+      <a href="#">Product</a>
+      <a href="#">Contact</a>
+    </nav>
+    <button class="Download-btn">Save to Desktop</button>
+  </header>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+<section class="hero">
+  <div class="hero-content">
+    <h1>From Trusted Roots to Everyday Delight</h1>
+    <p>Mimi Store offers Magnolia favorites and 
+frozen goods that nourish, comfort, and connect.</p>
+<div class="hero-buttons">
+  <button class="btn-primary">Shop Now</button>
+  <button class="btn-outline">Learn More</button>
+</div>
+</div>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
-  <script type="module" src="/src/index.jsx"></script>
+</section>
+
+
+
+<section class="offer-section">
+  <div class="offer-card">
+    <div class="product-label">Chicken Liver - /kg</div>
+    <img src="https://tse4.mm.bing.net/th/id/OIP.i1yevd1PJ8hwiDiMGwJhsQHaHQ?rs=1&pid=ImgDetMain&o=7&rm=3" alt="1kg" class="product-img">
+    <div class="price-tag">₱499</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Chicken Feet  - /kg</div>
+    <img src="https://tse1.mm.bing.net/th/id/OIP.K2JxeWK4yxUAHv1huObp3gHaHa?w=600&h=600&rs=1&pid=ImgDetMain&o=7&rm=3" alt="/kilo" class="product-img">
+    <div class="price-tag">₱499</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Chicken Gizzard - /kg</div>
+    <img src="https://img.lazcdn.com/g/p/8a637d10beb3ec9da0775e7d9ef0ace4.jpg_720x720q80.jpg" alt="/kilo" class="product-img">
+    <div class="price-tag">₱499</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Chicken Intestine - /kg</div>
+    <img src="https://tse1.mm.bing.net/th/id/OIP.SxIGON9RcwdrTa1PUrbBOAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="1kg" class="product-img">
+    <div class="price-tag">₱499</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Chicken Head - /kg</div>
+    <img src="https://enyameni.co.za/wp-content/uploads/2021/08/Heads-Chicken-800x800.png" alt="/Kilo" class="product-img">
+    <div class="price-tag">₱499</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Ready-to-Cook Fried Chicken - 1kg</div>
+    <img src="https://shopsuki.ph/cdn/shop/files/108119538_1_1024x.png?v=1715248921" alt="1kg" class="product-img">
+    <div class="price-tag">₱499</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+
+  <div class="offer-card">
+    <div class="product-label">Magnolia Whole Chicken - /kilo</div>
+    <img src="https://images.freshop.com/1564405684704766586/299bbe605c82630b46c99bc3ee1b2614_large.png" alt="/kilo" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Magnolia BigBird - /kilo</div>
+    <img src="https://images.freshop.com/1564405684712086439/ea6e56c0321acb36c4c5ac7259f1b72e_large.png" alt="/kilo" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Magnolia Breast - /kilo</div>
+    <img src="https://lzd-img-global.slatic.net/g/p/24057cb184e092d3ecceacdeeb2a17bf.jpg_720x720q80.jpg" alt="/kilo" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+   <div class="offer-card">
+    <div class="product-label">Magnolia Drumsticks - /kilo</div>
+    <img src="https://ph-test-11.slatic.net/p/8410fa47d16040280bd5df0abdd9252e.jpg" alt="/kilo" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Magnolia Wings - /kilo</div>
+    <img src="https://northazuregrocery.com/wp-content/uploads/2022/07/1kg-cut-ups_wings0b177abf8ae52d190722142253c38869.png" alt="/kilo" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+   <div class="offer-card">
+    <div class="product-label">Magnolia Thighs - /kilo</div>
+    <img src="https://marilenminimart.com/cdn/shop/products/MagnoliaThighs.png?v=1623215167" alt="/kilo" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  
+  <div class="offer-card">
+    <div class="product-label">Cut UPS</div>
+    <img src="https://cdn.momsdish.com/wp-content/uploads/2014/02/how-to-cut-a-whole-chicken-06-2048x1365.jpg" alt="/kilo" class="product-img">
+    <div class="price-tag">₱499</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+
+  <div class="offer-card">
+    <div class="product-label">Purefoods Tender Juicy Hotdog classic - 230g</div>
+    <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/17197054/3270836076.jpg" alt="230g" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Purefoods Tender Juicy Hotdog cocktail - 250g</div>
+    <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/17197054/3851683823.jpg" alt="250g" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Purefoods Embutido - 220g</div>
+    <img src="https://jocyls.com/wp-content/uploads/2024/11/purefoods-embutido-768x1024.jpg" alt="220g" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Purefoods Chicken longganisa - 250g</div>
+    <img src="https://images.freshop.ncrcloud.com/1564405684702550775/e69303302759c503bdb0663a8a285611_large.png" alt="250g" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Super Shoestring Fries - 1kg</div>
+    <img src="https://media.karousell.com/media/photos/products/2023/12/17/extra_long_super_shoestring_fr_1702808548_87bf43a2_progressive.jpg" alt="1kg" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Vida Sweet Ham - 250g</div>
+    <img src="https://tse3.mm.bing.net/th/id/OIP.msVeUrqyW66AFgL6KvcoqgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="250g" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Purefoods ready-to-eat Cebu-style chorizo - 250g</div>
+    <img src="https://tse3.mm.bing.net/th/id/OIP.0bcIRVMKb1qvcpDX0wbO0AHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="250g" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Purefoods Beef Tapa - 220g</div>
+    <img src="https://images.freshop.com/1564405684713622046/9ebb528d5d05f980c0d079ff9b10772c_large.png" alt="220g" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Purefoods Crazy Cut Nuggets - 135g</div>
+    <img src="https://down-ph.img.susercontent.com/file/147b8dedb15ed305a21b2c96b605d7fe" alt="135g" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Purefoods Classic Tocino - 220g</div>
+    <img src="https://lzd-img-global.slatic.net/g/p/c509b882f96a8cc88077e61024081c3c.jpg_720x720q80.jpg" alt="220g" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Purefoods Star Burger Classic - 228g</div>
+    <img src="https://tse1.mm.bing.net/th/id/OIP.DqH3tdhhxPr32OM2Ox9KaAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="228g" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Vida Bacon - 250g</div>
+    <img src="https://tse4.mm.bing.net/th/id/OIP.Dwc5elQWvnzv0MZGElRu7gHaFj?rs=1&pid=ImgDetMain&o=7&rm=3" alt="250g" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Winner Chicken Bola-Bola - 180g</div>
+    <img src="https://tse1.explicit.bing.net/th/id/OIP.FRZ9WymVaaJF8ET9ojobeQHaFj?rs=1&pid=ImgDetMain&o=7&rm=3" alt="180g" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Champion Tocino Roll - 250g</div>
+    <img src="https://zbga.shopsuki.ph/cdn/shop/files/109314859_800x.png?v=1715322534" alt="250g" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+  <div class="product-label">Champion Cheezy Chicken Roll - 250g</div>
+    <img src="https://shopsuki.ph/cdn/shop/files/4800088258050_1024x.jpg?v=1732015689" alt="250g" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">El Rancho Frozen Corned Beef - 200g</div>
+    <img src="https://zbga.shopsuki.ph/cdn/shop/files/4800088228039_800x.jpg?v=1732015033" alt="250g" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Virginia Beef Meatballs - 250g</div>
+    <img src="https://shopsuki.ph/cdn/shop/files/4800088270335_800x.jpg?v=1708046148" alt="250g" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Virginia Chicken Sisig Korean Style - 200g</div>
+    <img src="https://zbga.shopsuki.ph/cdn/shop/files/106812397_1024x.png?v=1709281295" alt="200g" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  <div class="offer-card">
+    <div class="product-label">Champion Chicken Hotdog - 250g</div>
+    <img src="https://zbga.shopsuki.ph/cdn/shop/files/4800088250351_14366663-2e07-4c7e-aafb-5ea749ab0301_800x.jpg?v=1708328445" alt="250g" class="product-img">
+    <div class="price-tag">₱799</div>
+    <button class="buy-btn">Buy Now</button>
+  </div>
+  
+</section>
+
+
+  
+  
+  
+  
+  <section class="client-section">
+    <h2>Client Testimonials</h2>
+    <div class="testimonial">
+      <p>"Amazing service and quality!"</p>
+      <div class="stars">★★★★★</div>
+    </div>
+    <div class="testimonial">
+      <p>"Fast delivery and great support."</p>
+      <div class="stars">★★★★☆</div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Mimi Store. All rights reserved.</p>
+    <p>Designed with love and professionalism.</p>
+  </footer>
+</body>
 </html>
